@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DetailsActivity::class.java)
             val bundle = Bundle()
 
-            bundle.putString("ABC", editText.text.toString())
+            bundle.putString(DetailsActivity.ARG_TEXT, editText.text.toString())
             intent.putExtras(bundle)
 
             startActivity(intent)
