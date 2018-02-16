@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hi :D</string>
+    <string name="btn_send">Send!</string>
+    <string name="hint_first_name">Your first name here!</string>
+</resources>
